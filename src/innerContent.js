@@ -1,16 +1,13 @@
-import React from 'react'
-import {Outlet} from 'react-router-dom'
-import Dashboard from './Component/Dashboard'
+import React from 'react';
+// import {Link} from react-router-dom;
 
-function innerContent() {
+function InnerContent() {
   return (
-    <div>innerContent
-
-    <Dashboard />
-      <Outlet />
-
+    <div>
+      This is innerContent page and its me asmita dhakal hlo hlo.
+   {/* <Link to '/dashboard'></Link> */}
     </div>
   )
 }
 
-export default innerContent
+export default InnerContent
